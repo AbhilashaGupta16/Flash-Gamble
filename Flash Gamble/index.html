@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/flash-logo.png">
+
+    <title>Flash Gamble</title>
+  </head>
+  <body>
+    <center>
+    <h1 id="heading" class="d-flex justify-content-center">Flash Gamble</h1>
+
+    <div id="container" class="d-flex justify-content-center flex-column">
+      <h4 id="start-text" class="blink text-light d-flex justify-content-center">Start the Game !</h4>
+      <div id="start-btn" class="btn"><svg class="text-light" xmlns="http://www.w3.org/2000/svg" width="130" height="100" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+      </svg></div>
+      <div id="game-box" class="container-box d-flex justify-content-center">
+        <div id="row-1"  class="d-flex justify-content-center flex-row">
+          <div class="box" id="box-1" value="1"></div>
+          <div class="box" id="box-2" value="2"></div>  
+        </div>
+        <div id="row-2" class="d-flex justify-content-center flex-row">
+          <div class="box" id="box-3" value="3"></div>
+          <div class="box" id="box-4" value="4"></div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <section id="score-board" class="d-flex justify-content-center flex-column">
+      <div id="first"  class="d-flex justify-content-center flex-row">
+        <h4 class="text-light d-flex justify-content-center">Player Name : </h4>
+        <h4 id="player-name" class="text-light d-flex justify-content-center"></h4>
+      </div>
+      <div id="second"  class="d-flex justify-content-center flex-row">
+        <h4 class="text-light d-flex justify-content-center">Score: </h4>
+        <h4 id="level-no" class="text-light d-flex justify-content-center">1</h4>
+      </div>
+      <div id="third"  class="d-flex justify-content-center flex-row">
+        <h4 class="text-light d-flex justify-content-center">High Score : </h4>
+        <h4 id="high-score" class="text-light d-flex justify-content-center">0</h4>
+      </div>
+    </section>
+    
+
+  </center>
+  
+  <!-- <script src="script.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous "></script>
+  </body>
+</html>
